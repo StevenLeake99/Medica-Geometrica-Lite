@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sophia Lite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sophia Lite</h1>
+
+  <div id="messages"></div>
+
+  <input id="input" placeholder="Talk..." />
+  <button onclick="send()">Send</button>
+
+  <h2>Medica</h2>
+  <input id="mood" placeholder="Mood 1-10">
+  <input id="energy" placeholder="Energy 1-10">
+  <input id="sleep" placeholder="Sleep hours">
+  <input id="stress" placeholder="Stress 1-10">
+  <button onclick="logHealth()">Log</button>
+  <button onclick="analyzeHealth()">Analyze</button>
+
+  <pre id="medica"></pre>
+
+<script src="app.js"></script>
+</body>
+</html>
